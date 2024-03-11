@@ -4,10 +4,11 @@
 }
 .navbar{
     background-color: #220077;
+    border-radius: 2%;
+    box-shadow: 0px 2px 5px rgba(10, 48, 240, 0.9);
 }
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='%23a6dad0'%3E%3Cpath stroke='%23a6dad0' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-
 }
 .nav-link{
     color:#a6dad0 ;
@@ -18,15 +19,20 @@
 .nav-link:hover{
     color:#f4e6ce ;
 }
-main{
-    padding: 2%;
-    background-color: #5d96bc;
+body > main{
+    background-color: #5d96bc; 
+    padding: 20px;
+    min-height: 100vh;
 }
+main.container{
+    max-width: none;
+}
+
 h1{
     padding: 5%;
     text-align: center;
     color: #f4e6ce;
-    text-shadow:4px 4px 6px rgba(30, 40, 232, 0.8) ;
+    text-shadow:4px 4px 6px rgba(30, 40, 232, 0.8);
     text-decoration: underline;
 
 }
@@ -39,6 +45,8 @@ footer{
     background-color: #220077;
     color: black;
     text-align: center;
+    box-shadow: 0px 2px 5px rgba(10, 48, 240, 10);
+
 }
 
 footer p{
@@ -92,27 +100,13 @@ h3{
     width: 20%; 
 }
 /*Planes de entrenamiento*/
-.tabla-container {
-    display: grid;
-    grid-template-rows: auto; /* Ajusta según el contenido de las filas */
-    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
-    gap: 10px; /* Espacio entre las celdas */
-    border: 2px solid #3498db; /* Borde de la tabla */
-    border-radius: 10px;
-    padding: 10px;
+.card{
+    background-color: #5d96bc;
 }
-
-.tabla-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border: 2px solid #ddd; /* Borde suave */
-    border-radius: 8px; /* Esquinas redondeadas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombreado suave */
-    
-    }
+.card-img-top {
+    background-color: transparent;
+    border: 0;
+}
 
 .imagen{
     width: 50%;
