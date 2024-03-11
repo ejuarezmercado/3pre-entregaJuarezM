@@ -7,6 +7,12 @@
     border-radius: 2%;
     box-shadow: 0px 2px 5px rgba(10, 48, 240, 0.9);
 }
+.logo-name {
+    font-size: 1.5rem; /* Tamaño de la fuente */
+    margin-left: 10px; /* Espacio a la izquierda del logo */
+    color: #f4e6ce;
+    text-shadow: 2px 2px 4px rgba(249, 249, 249, 0.8);
+}
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='%23a6dad0'%3E%3Cpath stroke='%23a6dad0' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
@@ -135,10 +141,13 @@ h3{
     }
     
     .nosotros-main .background-image {
-        width: ;
-        height: ;
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
     }
+    form{
+    color: #f4e6ce;
     
+    }
+  h2{
+    color:#f4e6ce
+  }

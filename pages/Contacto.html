@@ -17,8 +17,9 @@
       <!--Inicia navbar-->
         <nav class="navbar navbar-expand-sm ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="../index.html">
                 <img src="../imagenes/EJ TRAINING.jpg" alt="Avatar Logo" style="width:100px;" class="rounded-pill">
+                <span class="logo-name">EJ TRAINING</span>
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -46,7 +47,45 @@
           </nav>
 
     </header>
-    <!--Inicia el footer-->
+    <!--Inicia el MAIN-->
+    <main>
+      <div class="container mt-5">
+      <h2 class="mb-4">Formulario de Contacto</h2>
+      <form>
+          <div class="mb-3 row">
+              <label for="nombre" class="col-sm-2 col-form-label">Nombre:</label>
+              <div class="col-sm-10">
+                  <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+              </div>
+          </div>
+          <div class="mb-3 row">
+              <label for="apellido" class="col-sm-2 col-form-label">Apellido:</label>
+              <div class="col-sm-10">
+                  <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+              </div>
+          </div>
+          <div class="mb-3 row">
+              <label for="email" class="col-sm-2 col-form-label">Email:</label>
+              <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+              </div>
+          </div>
+          <div class="mb-3 row">
+              <label for="consulta" class="col-sm-2 col-form-label">Consulta:</label>
+              <div class="col-sm-10">
+                  <textarea class="form-control" id="consulta" rows="4" placeholder="Escriba su consulta aquí"></textarea>
+              </div>
+          </div>
+          <div class="mb-3 row">
+              <div class="col-sm-10 offset-sm-2">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+          </div>
+      </form>
+  </div>
+</main>
+   <!--FINALIZA MAIN-->
+   <!--INICIA EL FOOTER-->
     <footer>
       <p>Todos los derechos son reservados copyright.</p>
       <div class="redes">
