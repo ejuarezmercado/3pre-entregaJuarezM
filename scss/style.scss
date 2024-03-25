@@ -1,0 +1,169 @@
+$color-primario: #220077;
+$color-secundario: #5d96bc;
+$color-terciario: #f4e6ce;
+$color-destacado: #3498db;
+$color-texto: #a6dad0;
+$tamanio-logo: 1.5rem;
+$bordes-radius: 2%;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: $color-primario;
+    border-radius: $bordes-radius;
+    box-shadow: 0px 2px 5px rgba(10, 48, 240, 0.9);
+}
+
+.logo-name {
+    font-size: $tamanio-logo;
+    margin-left: 10px;
+    color: $color-terciario;
+    text-shadow: 2px 2px 4px rgba(249, 249, 249, 0.8);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='#{$color-texto}'%3E%3Cpath stroke='#{$color-texto}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.nav-link {
+    color: $color-texto;
+    transition: color 0.3s ease;
+    font-size: larger;
+    font-weight: bold;
+
+    &:hover {
+        color: $color-terciario;
+    }
+}
+
+body > main {
+    background-color: $color-secundario;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+main.container {
+    max-width: none;
+}
+
+h1 {
+    padding: 5%;
+    text-align: center;
+    color: $color-terciario;
+    text-shadow: 4px 4px 6px rgba(30, 40, 232, 0.8);
+    text-decoration: underline;
+}
+
+p {
+    color: $color-terciario;
+    text-align: center;
+}
+
+footer {
+    background-color: $color-primario;
+    color: black;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(10, 48, 240, 10);
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+.redes a {
+    color: $color-destacado;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.whatsapp {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    font-size: 150%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 3px white;
+}
+
+h3 {
+    text-align: center;
+    color: $color-terciario;
+    padding: 3%;
+}
+
+.formulario-container {
+    border: 2px solid #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #f5f5f5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario-container button {
+    background-color: #3498db;
+    color: #fff;
+    width: 20%;
+}
+
+.card {
+    background-color: $color-secundario;
+}
+
+.card-img-top {
+    background-color: transparent;
+    border: 0;
+}
+
+.imagen {
+    width: 50%;
+    margin: auto;
+}
+
+.nosotros-main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nosotros-main .hero-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.nosotros-main .background-image {
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    color: $color-terciario;
+}
+
+h2 {
+    color: $color-terciario;
+}
