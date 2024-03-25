@@ -161,13 +161,50 @@ h2 {
   color: #f4e6ce;
 }
 
-.container {
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+.plan-card {
+  background-color: #5d96bc;
+  border: 1px solid #f4e6ce;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.plan-card:hover {
+  transform: scale(1.05);
+}
+.plan-card .card-body {
+  text-align: center;
+}
+.plan-card .card-body .card-title {
+  font-size: 1.5rem;
+  color: #f4e6ce;
+  margin-bottom: 15px;
+}
+.plan-card .card-body .text-muted {
+  font-size: 0.9rem;
+  color: #a6dad0;
+  margin-bottom: 20px;
+}
+.plan-card .card-body .h2 {
+  color: #f4e6ce;
+  margin-bottom: 20px;
+}
+.plan-card .card-body ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.plan-card .card-body ul li {
+  margin-bottom: 10px;
+  color: #a6dad0;
+}
+.plan-card .card-body .btn {
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+.plan-card .card-body .btn:hover {
+  background-color: #217dbb;
 }
 
-.row {
-  justify-content: left;
-  align-items: center;
-}
+/*# sourceMappingURL=estilos.css.map */

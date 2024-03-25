@@ -174,3 +174,58 @@ form {
 h2 {
     color: $color-terciario;
 }
+
+.plan-card {
+    background-color: $color-secundario;
+    border: 1px solid $color-terciario;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    .card-body {
+        text-align: center;
+
+        .card-title {
+            font-size: 1.5rem;
+            color: $color-terciario;
+            margin-bottom: 15px;
+        }
+
+        .text-muted {
+            font-size: 0.9rem;
+            color: $color-texto;
+            margin-bottom: 20px;
+        }
+
+        .h2 {
+            color: $color-terciario;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 20px;
+
+            li {
+                margin-bottom: 10px;
+                color: $color-texto;
+            }
+        }
+
+        .btn {
+            background-color: $color-destacado;
+            color: #fff;
+            border-radius: 20px;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease-in-out;
+
+            &:hover {
+                background-color: darken($color-destacado, 10%);
+            }
+        }
+    }
+}
