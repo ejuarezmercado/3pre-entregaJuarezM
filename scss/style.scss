@@ -1,20 +1,11 @@
-$color-primario: #220077;
-$color-secundario: #94c4e4;
-$color-terciario: #f4e6ce;
-$color-destacado: #3498db;
-$color-texto: #a6dad0;
-$tamanio-logo: 1.5rem;
-$bordes-radius: 2%;
+
+@import 'variables';
+@import 'navbar';
+@import 'footer';
 
 * {
     margin: 0;
     padding: 0;
-}
-
-.navbar {
-    background-color: $color-primario;
-    border-radius: $bordes-radius;
-    box-shadow: 0px 2px 5px rgba(5, 42, 227, 0.9);
 }
 
 .logo-name {
@@ -72,12 +63,7 @@ p {
     text-align: center;
 }
 
-footer {
-    background-color: $color-primario;
-    color: black;
-    text-align: center;
-    box-shadow: 0px 2px 5px rgba(10, 48, 240, 10);
-}
+
 
 footer p {
     margin-bottom: 20px;
@@ -145,8 +131,8 @@ h3 {
 .nosotros-main {
     position: relative;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    height: 100%;
+    overflow: auto;
 }
 
 .nosotros-main .hero-section {
@@ -168,11 +154,11 @@ h3 {
 }
 
 form {
-    color: $color-terciario;
+    color: $color-destacado;
 }
 
 h2 {
-    color: $color-terciario;
+    color: $color-destacado;
 }
 
 .plan-card {
